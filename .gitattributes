@@ -1,0 +1,9 @@
+# Normalise text line endings to LF in the repo (silences CRLF warnings on Windows)
+* text=auto eol=lf
+
+# Binary assets — never touch line endings or diff
+*.ttf binary
+*.png binary
+
+# Notebooks are JSON; let git treat as text but don't try to merge blindly
+*.ipynb text

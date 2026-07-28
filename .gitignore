@@ -1,0 +1,31 @@
+# Data
+*.csv
+
+# Generated figures — regenerate via the notebook
+*.png
+
+# Local-only — my authoring + reel machinery, not published.
+# The public repo ships the notebook (the experiment); the percent-format
+# script that builds it stays on my system.
+joint_load_model.py
+render_reels.py
+reel_comparisons.py
+yunvo_brand.py
+REEL_SCRIPT.md
+fonts/
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+env/
+.ipynb_checkpoints/
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.swp
