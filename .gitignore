@@ -8,11 +8,17 @@
 # The public repo ships the notebook (the experiment); the percent-format
 # script that builds it stays on my system.
 joint_load_model.py
-render_reels.py
-reel_comparisons.py
+jl.py
+render_reel_anim.py
 yunvo_brand.py
 REEL_SCRIPT.md
+EP_*_SHOOT.md
+HANDOFF.md
+CLAUDE.md
 fonts/
+*.gif
+*.mp4
+_still_*.png
 
 # Python
 __pycache__/

@@ -24,9 +24,14 @@ distance. no dataset, no fitting — pure physics, fully reproducible.
 
 ## findings
 
-- **the bodyweight tax is perfectly linear, and inescapable.** every joint force
-  scales exactly with bodyweight. a 150 / 200 / 250 lb runner all sit at 7.0×BW
-  at the ankle — but that's 1,050 vs 1,400 vs 1,750 lb of real force per step.
+- **the bodyweight tax is linear — by construction, not by discovery.** the model
+  multiplies bodyweight by a per-joint coefficient, so a 150 / 200 / 250 lb runner
+  all sit at 7.0×BW at the ankle — 1,050 vs 1,400 vs 1,750 lb of real force per
+  step. that proportionality is an *input*, grounded in the force-plate finding
+  that peak GRF scales roughly with body mass, not an output of this model. it
+  also assumes identical gait at every bodyweight; real heavier runners
+  self-select somewhat different cadence and stride, so treat the linearity as a
+  good first approximation rather than a law.
 - **running vs walking is a cliff, not a step.** for a 200 lb runner the ankle
   jumps 5.8× going from walking to running. the ankle is the hidden villain
   (7×BW, higher than any other joint), while everyone worries about their knees.
